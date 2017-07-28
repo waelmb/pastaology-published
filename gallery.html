@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pastaology</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="gallery">
+  <header>
+    <div id="main">
+        <img src="images/pastaology-logo2.png" alt="logo">
+    </div>
+    <div class="sticky-nav">
+      <nav>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="index.html">Pastaology</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div id="main">
+  <div class="wrapper">
+    <h2 class="title">Gallery</h2>
+    <div class="container">
+      <div class="flickity">
+        <div><img src="images/gallery/gallery1.jpg" alt="Pastaology"></div>
+        <div><img src="images/gallery/gallery2.jpg" alt="Pastaology"></div>
+        <div><img src="images/gallery/gallery3.jpg" alt="Pastaology"></div>
+        <div><img src="images/gallery/gallery4.jpg" alt="Pastaology"></div>
+        <div><img src="images/gallery/gallery5.jpg" alt="Pastaology"></div>
+        </div>
+      <!-- flickity -->
+      </div>
+    <!-- .container-->
+  </div>
+  <!-- .wrapper-->
+  <footer>
+    <p> All rights reserved 2017 © <br> Disclaimer: this website is for educational purposes only</p>
+  </footer>
+</div>
+<!-- main -->
+  <script src="flickity.min.js"></script>
+  <script>
+  window.onload = function() {
+    var elem = document.querySelector('.flickity');
+    var flkty = new Flickity(elem, {
+      contain: true,
+      wrapAround: true
+    });
+  }
+  </script>
+  <script src="custom.min.js"></script>
+</body>
+
+</html>
