@@ -1,0 +1,27 @@
+@font-face {
+  font-family: century-gothic-regular;
+  src: url(../century-gothic-regular.ttf);
+}
+
+body {
+  font-family: 'century-gothic-regular', sans-serif;
+  color: $color-text;
+  // text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+}
+header {
+  color: white;
+}
+footer {
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-weight: 700;
+}
+
+@media screen and (min-width: $min-tablet-width) {
+
+}
+@media screen and (min-width: $min-desktop-width) {
+
+}
